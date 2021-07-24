@@ -8,6 +8,11 @@ module PizzaSystem {
     requires javafx.controls;
     requires javafx.base;
     requires javafx.graphics;
+    requires java.desktop;
+    requires java.logging;
+    requires mysql.connector.java;
+    requires java.sql;
+    requires java.persistence;
     
     exports pizzasystem;
 }
